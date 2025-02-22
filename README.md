@@ -16,7 +16,6 @@
 - `IPython`
 
 Install them using:
-
 ```sh
 pip install -r requirements.txt
 ```
