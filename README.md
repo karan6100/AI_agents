@@ -1,18 +1,4 @@
 # AI_agents
-# Blog Generator
-
-## Overview
-
-The **Blog Generator** is an AI-powered tool that creates engaging and well-structured blog posts based on a given keyword. It utilizes **LangGraph** along with **ChatGroq's Qwen-2.5-32B** model to generate compelling blog titles and content.
-
-## Features
-
-- **Automated Blog Title Creation**: Generates a catchy and concise blog title (max 80 characters) using AI.
-- **Comprehensive Blog Content Generation**: Produces a well-structured blog post with an introduction, main content, sub-sections, and conclusion.
-- **Markdown Formatting**: Outputs the blog in a structured markdown format.
-- **Graph-based Workflow Execution**: Uses LangGraph to define and execute a structured workflow for generating blog content.
-
-## Installation
 
 ### Prerequisites
 
@@ -58,17 +44,6 @@ python Blog_generator.py
 
 - A well-structured blog post is generated and displayed in the console.
 - The LangGraph workflow graph is saved as an image (`blog_creator_workflow_graph.png`).
-
-## File Structure
-
-```
-BlogGenerator/
-│── Blog_generator.py       # Main script for generating blogs
-│── requirements.txt        # Dependencies
-│── .env                    # API keys (not included in the repo)
-│── Assignments/            # Contains the workflow graph image
-│── README.md               # Documentation
-```
 
 ## Dependencies
 
